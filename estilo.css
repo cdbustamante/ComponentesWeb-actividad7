@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom, yellow, white);
+  }
+  
+  counter-component {
+    width: 40%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  button {
+    font-size: 1.5em;
+    margin: 0.5em;
+    padding: 0.5em 1em;
+  }
+  
+  counter-component p {
+    font-size: 50px;
+  }
+  
